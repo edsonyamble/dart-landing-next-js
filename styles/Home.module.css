@@ -1,26 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&display=swap");
 .container {
   min-height: 100vh;
   /*padding: 0 0.5rem;*/
-
 }
-.smi{font-family: 'Nunito Sans', sans-serif;font-size: 20px;padding: 2% 0 2% 5%}
-.smilink{text-decoration: none;color: black}
+.smi {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  padding: 2% 0 2% 5%;
+}
+.smilink {
+  text-decoration: none;
+  color: black;
+}
 .main {
-
 }
-.electronicright img{min-width: 300px;width: 100%}
-.electronic{
-  height:100%;
+.electronicright img {
+  min-width: 300px;
+  width: 100%;
+}
+.electronic {
+  height: 100%;
   width: 100%;
   background-color: #ecedf7;
   padding: 0 5%;
 }
-.electronicleft{width: 45%;padding-top: 10%}
-.electronicright{width: 45%;padding-top: 5%}
-.electronicdart{font-family: 'Nunito Sans', sans-serif;font-size: 100px;font-weight: 800}
-.electronicnumber{font-family: 'Nunito Sans', sans-serif;font-size: 60px;font-weight: 600;margin-bottom: 10px}
-.electronictext{font-family: 'Nunito Sans', sans-serif;font-size: small;font-size: small;max-width: 50%;margin-bottom: 30px}
+.electronicleft {
+  width: 45%;
+  padding-top: 10%;
+}
+.electronicright {
+  width: 45%;
+  padding-top: 5%;
+}
+.electronicdart {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+.electronicnumber {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.electronictext {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: small;
+  font-size: small;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
 .footer {
   width: 100%;
   height: 100px;
@@ -29,12 +58,32 @@
   justify-content: center;
   align-items: center;
 }
-.electronicbtn button{background-color: #6874DC;
-  background-image: none;border: none;box-shadow: #fff 4px 4px 0 0,#6874DC 4px 4px 0 1px;box-sizing: border-box;color: #fff;cursor: pointer;display: inline-block;font-family: 'Nunito Sans', sans-serif;font-size: 14px;font-weight: 400;line-height: 20px;
-  margin: 0 5px 10px 0;overflow: visible;padding: 12px 40px;text-align: center;text-transform: none;touch-action: manipulation;user-select: none;-webkit-user-select: none;vertical-align: middle;white-space: nowrap;
-                      }
+.electronicbtn button {
+  background-color: #6874dc;
+  background-image: none;
+  border: none;
+  box-shadow: #fff 4px 4px 0 0, #6874dc 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 
-.electronicbtn button:focus{
+.electronicbtn button:focus {
   text-decoration: none;
 }
 
@@ -43,7 +92,7 @@
 }
 
 .electronicbtn button:active {
-  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
   outline: 0;
 }
 
@@ -103,45 +152,60 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
-.secondmain{
-  background-color: #E5E5E5;
+.secondmain {
+  background-color: #e5e5e5;
   padding: 5% 0;
 }
-.secondmainheader img{
-margin-top: -4%;
-margin-left: -27vh;
-position: absolute;}
-.secondmainheader{
+.secondmainheader img {
+  margin-top: -4%;
+  margin-left: -27vh;
+  position: absolute;
+}
+.secondmainheader {
   width: 100%;
   max-width: 400px;
   justify-content: center;
   display: flex;
   background-color: white;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   height: 145px;
   font-weight: bold;
   font-size: 18px;
   padding: 2% 5%;
 }
-.benefictsecondheader{font-family: 'Nunito Sans', sans-serif;font-weight: bold;font-size: 60px;margin-top:60px;margin-bottom: 20px}
-.benefictsecondtext{font-family: 'Nunito Sans', sans-serif;font-size: 30px;color: #585C65}
-.benefict{padding-right: 5%}
-.benefictfirstimgsecond{margin-top: 54px;
+.benefictsecondheader {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.benefictsecondtext {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  color: #585c65;
+}
+.benefict {
+  padding-right: 5%;
+}
+.benefictfirstimgsecond {
+  margin-top: 54px;
   margin-left: -208px;
   position: absolute;
-  display: block;}
+  display: block;
+}
 
-.benefictfirst{
+.benefictfirst {
   width: 45%;
   height: 100%;
   background-image: url("../public/img/bene.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.benefictsecond{
+.benefictsecond {
   width: 45%;
 }
-.secondmainheadermain{
+.secondmainheadermain {
   padding: 0 5%;
 }
 .grid {
